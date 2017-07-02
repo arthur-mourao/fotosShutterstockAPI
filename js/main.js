@@ -1,5 +1,5 @@
 var options = {
-  client_id: "c6f6dcab2757686050e9",
+  client_id: "CLIENT_ID",
   scope: "user.email collections.edit collections.view",
   redirect_endpoint: "index.html",
   success: function (data) { getToken(data); },
