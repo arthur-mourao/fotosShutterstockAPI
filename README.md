@@ -1,0 +1,2 @@
+# fotosShutterstockAPI
+Shutterstock API usage
