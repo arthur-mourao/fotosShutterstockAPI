@@ -1,0 +1,14 @@
+{
+  "name": "app_arthur_mourao",
+  "version": "1.0.0",
+  "description": "Projeto Album de fotos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arthur mourao",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

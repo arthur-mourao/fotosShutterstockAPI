@@ -1,0 +1,65 @@
+/*
+ * style.css 
+ */
+
+body {
+  padding-top: 60px;
+}
+
+/*
+ * Typography
+ */
+
+.thumbnail>p {
+  text-align: center;
+}
+
+
+div[role=main]{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.albuns{
+    max-height: 100px;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 2px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.vertical-separator{
+    height:30px;
+}
+
+
+.pesquisa{
+  height:350px;
+  overflow-y:scroll;
+  width:100%;
+}
+
+.lista-resultado{
+  max-height:300px;
+  overflow-y: auto;
+}
